@@ -4,8 +4,9 @@ jinja2
 pandas
 numpy
 joblib
-scikit-learn
+scikit-learn==1.7.2
 catboost
 lightgbm
-imblearn
+imbalanced-learn==0.12.3
 xgboost
+python-multipart
