@@ -9,7 +9,7 @@ app = FastAPI(title="Bank Customer Churn Prediction")
 
 
 # Load the pipeline
-pipeline = joblib.load("best_gd_base_pipeline.joblib")
+pipeline = joblib.load("best_pipeline_tuned.joblib")
 
 
 templates = Jinja2Templates(directory="templates")
